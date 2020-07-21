@@ -1,11 +1,11 @@
 from redis.client import Redis
 
 # client_url = 'localhost'
-redis_url = 'master.merchportal-redis.e9k47p.use1.cache.amazonaws.com'
+redis_url = 'aws_in_transit_redis_elasticache_url'
 
 redis_port = 6379
 # redis_password = '1234'
-redis_password = 'rFA94ys3u$6i&snP'
+redis_password = 'aws_in_transit_redis_elasticache_password'
 
 # ssl_enabled = False
 ssl_enabled = True
