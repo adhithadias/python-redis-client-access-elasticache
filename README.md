@@ -4,8 +4,8 @@ Download the repository and run the following commands
 git clone <repository>
 cd <into_to_the_repository>
 
-python3 -m venv .
-source ./bin/activate
+python3 -m venv .venv
+source ./.venv/bin/activate
 pip install -r requirements.txt
 
 ```
